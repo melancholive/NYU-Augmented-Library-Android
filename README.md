@@ -16,6 +16,5 @@ reservation.
 If you are cloning into a repository, make you have have nodejs installed.
 Run npm install in the terminal
 
-
-
 # NYU-Augmented-Library-Android
+Set-Up Instructions: https://drive.google.com/file/d/13PUBop-QOqo6ZeaH5jbI3oaEeFEY7nZ1/view?usp=sharing
