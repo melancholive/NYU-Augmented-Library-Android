@@ -5,7 +5,9 @@ import ReserveScreen from "./Screens/Reserve Screen/ReserveScreen";
 import PickTime from "./Screens/Reserve Screen/PickTime";
 import ARVision from "./Screens/ARVision";
 import SignIn from "./Screens/SignIn/SignIn";
-import WelcomeButton from "./Screens/components/welcomeComponent/WelcomeButton"
+import WelcomeButton from "./Screens/components/welcomeComponent/WelcomeButton";
+import StudySpacesNav from "./Screens/components/StudySpacesNav/StudySpacesNav2";
+
 
 export {
   WelcomeScreen,
@@ -13,6 +15,7 @@ export {
   About,
   ReserveScreen,
   ARVision,
+  StudySpacesNav,
   PickTime,
     SignIn
 }
