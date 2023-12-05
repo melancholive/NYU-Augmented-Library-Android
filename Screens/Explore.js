@@ -41,13 +41,13 @@ export default function Explore() {
           </View>
         </View>
         <View style={styles.options}>
-          <View style={styles.exploreBox}><Text onPress={navigateToAbout}>Books & More</Text></View>
-          <View style={styles.exploreBox}><Text>Articles and Databases</Text></View>
-          <View style={styles.exploreBox}><Text>Course Reserve</Text></View>
+          <View style={styles.exploreBox}><Text style={{fontSize:20}} onPress={navigateToAbout}>Books & More</Text></View>
+          <View style={styles.exploreBox}><Text style={{fontSize:20}}>Articles and Databases</Text></View>
+          <View style={styles.exploreBox}><Text style={{fontSize:20}}>Course Reserve</Text></View>
         </View>
         <View style={styles.options2}>
-          <View style={styles.exploreBox}><Text>About</Text></View>
-          <View style={styles.exploreBox}><Text>Sign in</Text></View>
+          <View style={styles.exploreBox}><Text style={{fontSize:20}}>About</Text></View>
+          <View style={styles.exploreBox}><Text style={{fontSize:20}}>Sign in</Text></View>
         </View>
       </ScrollView>x
     </ScreenTemplate>
