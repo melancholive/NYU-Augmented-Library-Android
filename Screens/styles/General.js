@@ -77,6 +77,46 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flexDirection: 'row',
   },
+  exploreBox:{
+    backgroundColor: '#9451B8',
+    borderColor: '#57068C',
+    padding: 20,
+    borderRadius: 10,
+    borderWidth: 10,
+    width: 300,
+    height: 150,
+    marginTop: 20,
+    marginBottom: 20,
+    alignSelf: 'center',
+    textAlign: 'center',
+    position: 'relative',
+  },
+  exploreBoxHov:{
+    borderColor: 'blue',
+  },
+  options:{
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    flexDirection: 'row',
+  },
+  options2:{
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    marginLeft: '15%',
+    marginRight: '15%',
+  },
+  searchBar:{
+    backgroundColor: 'white',
+    borderWidth: 1,
+    borderColor: 'gray',
+    padding: 10,
+    alignSelf: 'center',
+  },
+  searchButton:{
+    marginTop: 10,
+    alignSelf: 'center',
+  },
 });
 
 export default styles

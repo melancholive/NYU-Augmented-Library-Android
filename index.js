@@ -4,6 +4,7 @@ import About from './Screens/About';
 import ReserveScreen from './Screens/Reserve Screen/ReserveScreen';
 import PickTime from './Screens/Reserve Screen/PickTime';
 import ARVision from './Screens/ARVision';
+import Explore from "./Screens/Explore";
 import SignIn from './Screens/SignIn/SignIn';
 import WelcomeButton from './Screens/components/welcomeComponent/WelcomeButton';
 import SearchScreen from './Screens/Search/SearchScreen';
@@ -13,6 +14,7 @@ export {
   Services,
   About,
   ReserveScreen,
+  Explore,
   ARVision,
   PickTime,
   SignIn,
