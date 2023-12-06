@@ -49,7 +49,7 @@ export default function Explore() {
           <View style={styles.exploreBox}><Text style={{fontSize:20}}>About</Text></View>
           <View style={styles.exploreBox}><Text style={{fontSize:20}}>Sign in</Text></View>
         </View>
-      </ScrollView>x
+      </ScrollView>
     </ScreenTemplate>
   )
 }
