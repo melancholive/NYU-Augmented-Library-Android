@@ -6,6 +6,7 @@ import PickTime from "./Screens/Reserve Screen/PickTime";
 import ARVision from "./Screens/ARVision";
 import SignIn from "./Screens/SignIn/SignIn";
 import WelcomeButton from "./Screens/components/welcomeComponent/WelcomeButton"
+import chatWithALibrarian from "./Screens/components/chatComponent/ChatWithALibrarian";
 
 export {
   WelcomeScreen,
@@ -14,5 +15,6 @@ export {
   ReserveScreen,
   ARVision,
   PickTime,
+  chatWithALibrarian,
     SignIn
 }
