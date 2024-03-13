@@ -2,9 +2,9 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import {createStackNavigator} from "@react-navigation/stack";
 import {NavigationContainer} from "@react-navigation/native";
-import { WelcomeScreen, Services, About, SignIn, ReserveScreen, ARVision, PickTime, StudySpacesNav} from "./index";
-import { WelcomeScreen, Services, About,SignIn, ReserveScreen, ARVision, PickTime, chatWithALibrarian } from "./index";
-import { WelcomeScreen, Services, SearchScreen, About,SignIn,Explore, ReserveScreen, ARVision, PickTime } from "./index";
+import { WelcomeScreen, Services, About, SignIn, ReserveScreen,
+    ARVision, PickTime, StudySpacesNav,
+    chatWithALibrarian, Explore, SearchScreen} from "./index";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import RoomReservationStack from "./ScreenStacks/RoomReservationStack";
 import Icon from "react-native-vector-icons/AntDesign";
@@ -54,19 +54,17 @@ export default function App() {
                     tabBarIcon: ({color}) => screenOptions(route, color),
                 })
           }>
+        <Tab.Screen name={"Home"} component={Explore} />
         <Tab.Screen name={"Welcome Screen"} component={WelcomeScreen} />
-          <Tab.Screen name={"SignIn"} component={SignIn} />
-          <Tab.Screen name={"About"} component={About} />
+        <Tab.Screen name={"SignIn"} component={SignIn} />
+        <Tab.Screen name={"About"} component={About} />
         <Tab.Screen name={"Services"} component={Services} />
         <Tab.Screen name={"RoomReservationStack"} component={RoomReservationStack} />
         <Tab.Screen name={"StudySpacesNav"} component={StudySpacesNav} />
         <Tab.Screen name={"Chat with a Librarian"} component={chatWithALibrarian} />
+        <Tab.Screen name={"Reserve"} component={ReserveScreen} />
+        <Tab.Screen name={"Search"} component={SearchScreen} />
       </Tab.Navigator>
-            }>
-            <Tab.Screen name={"Home"} component={Explore} />
-            <Tab.Screen name={"Reserve"} component={ReserveScreen} />
-            <Tab.Screen name={"Search"} component={SearchScreen} />
-        </Tab.Navigator>
     </NavigationContainer>
     );
 }
